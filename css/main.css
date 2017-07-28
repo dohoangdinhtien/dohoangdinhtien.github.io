@@ -1,0 +1,210 @@
+body {
+    background-color: #e6e6e6;
+}
+.main-nav {
+    background: black;
+}
+.main-nav .navbar-brand, .main-nav .navbar-nav .nav-link,
+.main-nav .navbar-brand:hover, .main-nav .navbar-nav .nav-link:hover {
+    color: white !important;
+}
+.sidebar {
+    background-color: #eceef0;
+}
+.word-page {
+    height: 1122.5px;
+    width: 794px;
+    background-color: white;
+    -ms-transform: scale(1.0, 1.0); /* IE 9 */
+    -webkit-transform: scale(1.0, 1.0); /* Safari */
+    transform: scale(1.0, 1.0);
+    margin: 0 auto;
+}
+.zoom-control {
+    position: fixed;
+    bottom: 10px;
+}
+.zoom-control ul {
+    list-style-type: none;
+}
+.zoom-control .zoom-in,
+.zoom-control .zoom-out {
+    background-color: #babbbc;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    color: white;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.main-left-tab {
+    background-color: #5d5b5c;
+}
+.main-left-tab li > a {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 0px;
+    background-color: #5d5b5c;
+    color: #a39a87;
+    border: none;
+}
+.main-left-tab > li.active > a {
+    background-color: #eceef0 !important;
+}
+.main-left-tab li > a:hover {
+    border-color: none;
+    background-color: transparent;
+}
+.sidebar {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.portrait, .landscape {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.landscape {
+    margin-left: 10px;
+}
+.portrait > span {
+    width: 8px;
+    height: 20px;
+    background-color: #5d5b5c;
+    display: inline-block;
+    margin-top: 4px;
+}
+.landscape > span {
+    height: 8px;
+    width: 20px;
+    background-color: #5d5b5c;
+    display: inline-block;
+    margin-top: 10px;
+}
+.form-group {
+    display: flex;
+    margin-top: 10px;
+}
+.cp-color-picker {
+    z-index: 9999;
+}
+.word-page header {
+    min-height: 200px;
+}
+.word-page header > div:nth-child(2) {
+    /*border: 1px dotted #cecece;*/
+    overflow: hidden;
+    /*resize: vertical;*/
+    width: 100%;
+    /*min-height: 160px;
+    max-height: 360px;*/
+    max-width: 100%;
+}
+.word-page header > div:nth-child(2)::-webkit-resizer {
+    background-color: red;
+}
+.word-page footer > div:nth-child(1) {
+    border: 1px dotted #cecece;
+    overflow: hidden;
+    /*resize: vertical;*/
+    width: 100%;
+    height: 160px;
+}
+.invoice-title {
+    font-size: 24px;
+    color: #4cbc8d !important;
+}
+.header-field {
+    position: fixed;
+}
+.header-field.badge {
+    z-index: 99999;
+}
+.header-field li {
+    margin-bottom: 5px;
+}
+.footer-badge.badge, .header-badge.badge {
+    text-align: left;
+    background: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+#header .badge, #footer .badge {
+    width: 100%;
+}
+.draggable {
+    cursor: pointer;
+}
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url("../images/ui-icons_444444_256x240.png");
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 5px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#bodyPage .table {
+    margin-top: 20px;
+    border: none;
+}
+#bodyPage table tbody tr > td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#bodyPage table tbody tr > td .badge,
+#bodyPage table tfoot tr > td .badge {
+    background: transparent;
+    color: #000;
+    font-size: 11px;
+}
+#bodyPage table tfoot tr th {
+    border: none;
+    text-align: right;
+}
+.ui-resizable-s {
+    border-bottom: 1px dotted orange;
+}
+.s {
+    border-bottom: 2px dotted orange;
+}
+
+/*.split {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.split.split-horizontal, .gutter.gutter-horizontal {
+    height: 100%;
+    float: left;
+}
+.gutter {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.gutter.gutter-horizontal {
+    cursor: col-resize;
+    background-image: url('../img/vertical.png');
+}
+.gutter.gutter-vertical {
+    cursor: row-resize;
+    background-image: url('../img/horizontal.png');
+  }
+  .content {
+    border: 1px solid #C0C0C0;
+    box-shadow: inset 0 1px 2px #e4e4e4;
+    background-color: #fff;
+ }*/

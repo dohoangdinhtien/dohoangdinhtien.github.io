@@ -1,1 +1,305 @@
-Hello World
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/jquery.resizableColumns.css">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TEMPLATEapp</a>
+                </div>
+            
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="#">Dashboard</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8 col-md-9 main">
+                    <div>
+                        <div class="word-page" data-bind="style: { color: mainColor }">
+                            <header id="headerPage" class="split content">
+                                <div style="background-color: #40ae49;height:40px;">
+                                    <span data-bind="visible: isAddPageNumbersTop" class="draggable">Page 1</span>
+                                </div>
+                                <div style="min-height:160px;width:100%;" class="square s">
+                                    <span class="invoice-title draggable">&lt;&lt;INVOICETITLE&gt;&gt;</span>
+                                    <img src="img/logo.png" style="transform: translateX(450px);" class="draggable">
+                                    <p style="margin-left: 20px;">Issued to:</p>
+                                </div>
+                            </header>
+                            <section id="bodyPage" class="split content">
+                                <table class="table table-bordered" data-resizable-columns-id="demo-table">
+                                    <thead>
+                                        <tr>
+                                            <th data-resizable-column-id="#"><a href="#">Item 1</a></th>
+                                            <th data-resizable-column-id="first_name"><a href="#">Item 2</a></th>
+                                            <th data-resizable-column-id="last_name"><a href="#">Item 3</a></th>
+                                            <th data-resizable-column-id="username"><a href="#">Item 4</a></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="1"><span class="glyphicon glyphicon-plus add-row"></span></th>
+                                            <th colspan="1"><a href="#">Item</a></th>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </section>
+                            <footer id="footerPage" style="position: absolute; bottom: 0px;width:100%;" class="split content">
+                                <div style="min-height:160px;width:100%;">
+                                    <span class="invoice-title draggable">Payment Terms</span>
+                                    <img src="img/logo.png" style="transform: translateX(500px);" class="draggable">
+                                </div>
+                                <div style="background-color: #40ae49;height:20px;">
+                                    <span data-bind="visible: isAddPageNumbersBottom" class="draggable">Page 1</span>
+                                </div>
+                            </footer>
+                        </div>
+
+                        <div class="zoom-control">
+                            <ul>
+                                <li>
+                                    <span class="zoom-in glyphicon glyphicon-plus"></span>
+                                </li>
+                                <li>
+                                    <span class="zoom-out glyphicon glyphicon-minus"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-3 sidebar">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs main-left-tab" role="tablist">
+                        <li role="presentation" class="active"><a href="#style" aria-controls="style" role="tab" data-toggle="tab">Style</a></li>
+                        <li role="presentation"><a href="#header" aria-controls="header" role="tab" data-toggle="tab">Header</a></li>
+                        <li role="presentation"><a href="#footer" aria-controls="footer" role="tab" data-toggle="tab">Footer</a></li>
+                        <li role="presentation"><a href="#body" aria-controls="body" role="tab" data-toggle="tab">Body</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="style">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-9">
+                                        <label for="page_size">Page Size</label>
+                                        <select class="form-control" name="page_size">
+                                            <option>A4 (210 x 297mm)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-3" style="margin-top: 25px;display: inline-flex;">
+                                        <span class="portrait"><span></span></span>
+                                        <span class="landscape"><span></span></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label for="font_family">Main font family</label>
+                                        <select class="form-control" name="font_family">
+                                            <option>Google fonts</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-5">
+                                        <label for="font_size">Main Font Size</label>
+                                        <select class="form-control" name="font_size">
+                                            <option value="9">9px</option>
+                                            <option value="10">10px</option>
+                                            <option value="11">11px</option>
+                                            <option value="12">12px</option>
+                                            <option value="14">14px</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-6">
+                                        <label for="font_color">Main Font Color</label>
+                                        <input data-bind="value: mainColor" class="font_color" name="font_color" type="text" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="header">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-md-6">
+                                        <label><input class="add_page_numbers" name="add_page_numbers" type="checkbox" />  Add Page Numbers</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label>Drag and Drop Available Fields</label>
+                                        <ul class="header-field" style="list-style-type: none;padding-left: 10px;">
+                                            <li>
+                                                <span class="header-badge badge">ContactContactNumber</span>
+                                            </li>
+                                            <li>
+                                                <span class="header-badge badge">ContactEmailAddress</span>
+                                            </li>
+                                            <li>
+                                                <span class="header-badge badge">ContactFirstName</span>
+                                            </li>
+                                            <li>
+                                                <span class="header-badge badge">ContactLastName</span>
+                                            </li>
+                                            <li>
+                                                <span class="header-badge badge">ContactPhysicalAddressLines</span>
+                                            </li>
+                                            <li>
+                                                <span class="header-badge badge">ContactPhysicalAttentionTo</span>
+                                            </li>
+                                            <li>
+                                                <span class="header-badge badge">ContactPhysicalCity</span>
+                                            </li>
+                                            <li>
+                                                <span class="header-badge badge">ContactPhysicalCountry</span>
+                                            </li>
+                                            <li>
+                                                <span class="header-badge badge">ContactPhysicalPostCode</span>
+                                            </li>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="footer">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-md-6">
+                                        <label><input class="add_page_numbers" name="add_page_numbers" type="checkbox" />  Add Page Numbers</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label>Drag and Drop Available Fields</label>
+                                        <ul class="header-field" style="list-style-type: none;padding-left: 10px;">
+                                            <li>
+                                                <span class="footer-badge badge">ContactContactNumber</span>
+                                            </li>
+                                            <li>
+                                                <span class="footer-badge badge">ContactEmailAddress</span>
+                                            </li>
+                                            <li>
+                                                <span class="footer-badge badge">ContactFirstName</span>
+                                            </li>
+                                            <li>
+                                                <span class="footer-badge badge">ContactLastName</span>
+                                            </li>
+                                            <li>
+                                                <span class="footer-badge badge">ContactPhysicalAddressLines</span>
+                                            </li>
+                                            <li>
+                                                <span class="footer-badge badge">ContactPhysicalAttentionTo</span>
+                                            </li>
+                                            <li>
+                                                <span class="footer-badge badge">ContactPhysicalCity</span>
+                                            </li>
+                                            <li>
+                                                <span class="footer-badge badge">ContactPhysicalCountry</span>
+                                            </li>
+                                            <li>
+                                                <span class="footer-badge badge">ContactPhysicalPostCode</span>
+                                            </li>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="body">
+                            <form>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <label>Drag and Drop Available Fields</label>
+                                        <ul class="header-field" style="list-style-type: none;padding-left: 10px;">
+                                            <li>
+                                                <span class="body-badge badge">ContactContactNumber</span>
+                                            </li>
+                                            <li>
+                                                <span class="body-badge badge">ContactEmailAddress</span>
+                                            </li>
+                                            <li>
+                                                <span class="body-badge badge">ContactFirstName</span>
+                                            </li>
+                                            <li>
+                                                <span class="body-badge badge">ContactLastName</span>
+                                            </li>
+                                            <li>
+                                                <span class="body-badge badge">ContactPhysicalAddressLines</span>
+                                            </li>
+                                            <li>
+                                                <span class="body-badge badge">ContactPhysicalAttentionTo</span>
+                                            </li>
+                                            <li>
+                                                <span class="body-badge badge">ContactPhysicalCity</span>
+                                            </li>
+                                            <li>
+                                                <span class="body-badge badge">ContactPhysicalCountry</span>
+                                            </li>
+                                            <li>
+                                                <span class="body-badge badge">ContactPhysicalPostCode</span>
+                                            </li>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/knockout-min.js"></script>
+        <script type="text/javascript" src="js/jqColorPicker.min.js"></script>
+        <!--<script type="text/javascript" src="js/interact.min.js"></script>-->
+        <!--<script src="js/jquery.dragon.js"></script>-->
+        <script src="js/main.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.ui.touch-punch.min.js"></script>
+        <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.17/fabric.min.js"></script>-->
+        <!--<script src="js/split.min.js"></script>-->
+        <script src="js/jquery.resizableColumns.min.js"></script>
+        <script src="js/store.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+    </body>
+</html>
