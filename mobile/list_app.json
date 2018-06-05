@@ -6,6 +6,13 @@
             "des": "Pokedex is application will help you research name, type, profile, evolutions and moves of any Pokémon.",
             "link": "https://play.google.com/store/apps/details?id=com.neguteam.pokedex",
             "package": "com.neguteam.pokedex"
+        },
+        {
+            "name": "Brick Breaking BallZ",
+            "icon": "https://lh3.googleusercontent.com/RhPPrS_1jVTKuKr1SupFhHItYvAYs6DQFIEaA84ln0egV5D6kh3rT7_ychBS8Zrjgik=s180-rw",
+            "des": "Swipe your finger to shoot the balls and break the bricks to score. Try to play as long as possible to beat yourself best scores. Collect coins to unlock new background during game and save it for spending more features in future update.",
+            "link": "https://play.google.com/store/apps/details?id=com.t58gamestudio.BrickBreakingBallZ",
+            "package": "com.t58gamestudio.BrickBreakingBallZ"
         }
     ]
 }
