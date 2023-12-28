@@ -2,7 +2,7 @@
 
 A bum approaches a well dressed gentleman on the street.\
 "Hey, Buddy, can you spare two dollars?"\
-The well-dressed gentleman responds, "You are not going to spend in on liquor are you?"\
+The well-dressed gentleman responds, "You are not going to spend in on liquor are you?"
 
 "No, sir, I don't drink," retorts the bum.\
 "You are not going to throw it away in some crap game, are you?" asks the gentleman.\
@@ -14,4 +14,5 @@ The bum accepts eagerly.\
 While they are heading for the man's house, the bum's curiosity gets the better of him.\
 "Isn't your wife going to be angry when she sees a guy like me at your table?"\
 "Probably," says the man,\
-"but it will be worth it. I want her to see what happens to a guy who doesn't drink, gamble or play golf."\
+"but it will be worth it. I want her to see what happens to a guy who doesn't drink, gamble or play golf."
+
