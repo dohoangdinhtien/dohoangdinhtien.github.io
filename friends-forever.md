@@ -1,9 +1,6 @@
 The mouse and the frog were good friends, but after a while the frog became angry because the mouse never visited his house.\
-![](./audio/friend-forever/1.mp3)
-
-`
 <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/1.mp3">Your browser does not support the audio tag.</audio>
-`
+
 
 One day, the frog snuck around and tied a piece of string to the mouse's tail and to his own leg.\
 
