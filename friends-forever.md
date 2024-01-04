@@ -17,7 +17,14 @@ One day, the frog snuck around and tied a piece of string to the mouse's tail an
 | One day, the frog snuck around and |  <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/2.1.mp3">Your browser does not support the audio tag.</audio> |
 | tied a piece of string to the mouse's tail and to his own leg. |  <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/2.2.mp3">Your browser does not support the audio tag.</audio> |
 
-When he left the mouse's house, he dragged the mouse along with him.\
+When he left the mouse's house, he dragged the mouse along with him.
+<audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/3.mp3">Your browser does not support the audio tag.</audio>
+
+| Sentence   |      Audio      |
+|----------|:-------------:|
+| When he left the mouse's house, |  <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/3.1.mp3">Your browser does not support the audio tag.</audio> |
+| he dragged the mouse along with him. |  <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/3.2.mp3">Your browser does not support the audio tag.</audio> |
+
 
 The frog jumped into the pond despite the mouse's cries that he couldn't swim, and the mouse soon drowned.\
 
