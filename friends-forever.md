@@ -1,7 +1,7 @@
 The mouse and the frog were good friends, but after a while the frog became angry because the mouse never visited his house.\
 <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/1.mp3">Your browser does not support the audio tag.</audio>
 
-| Tables   |      Are      |
+| Sentence   |      Audio      |
 |----------|:-------------:|
 | The mouse and the frog were good friends, |  <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/1.1.mp3">Your browser does not support the audio tag.</audio> |
 | but after a while the frog became angry |  <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/1.2.mp3">Your browser does not support the audio tag.</audio> |
