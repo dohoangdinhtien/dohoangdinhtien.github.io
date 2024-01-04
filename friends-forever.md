@@ -1,4 +1,12 @@
 The mouse and the frog were good friends, but after a while the frog became angry because the mouse never visited his house.\
+
+### 1.1
+<audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/1.1.mp3">Your browser does not support the audio tag.</audio>
+### 1.2
+<audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/1.2.mp3">Your browser does not support the audio tag.</audio>
+### 1.3
+<audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/1.3.mp3">Your browser does not support the audio tag.</audio>
+### Full 1
 <audio controls="1" controlslist="nodownload nofullscreen noremoteplayback" src="https://dohoangdinhtien.github.io/audio/friend-forever/1.mp3">Your browser does not support the audio tag.</audio>
 
 
